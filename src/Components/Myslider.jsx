@@ -51,8 +51,8 @@ const Myslider = () => {
             <div className=' text-center mt-xl-5 pt-xl-2' data-aos="zoom-in">
                 <h2 className=' txt_clr_2 fs_16 fw_400 ff_hal_text lnht_168'>Trusted by forward-thinking software teams around the world</h2>
             </div>
-            <Marquee>
-              <div className=' d-flex gap_72 mt_49' data-aos="zoom-in-up">
+            <Marquee className='my_slider'>
+              <div className=' d-flex gap_72 mt_49 my_slider' data-aos="zoom-in-up">
               <div>
             <img src={net} alt="" />
           </div>
