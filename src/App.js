@@ -16,7 +16,7 @@ import BackToTop from './Components/Comman/Backtotop';
 
 function App() {
   useEffect (() => {
-    Aos.init({duration:1500, once:false,});
+    Aos.init({duration:1500, once:true,});
   }, [])
   return (
     <div className=' overflow-hidden'>

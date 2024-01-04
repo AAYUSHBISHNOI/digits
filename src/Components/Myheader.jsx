@@ -7,7 +7,7 @@ import triangle from "../assets/img/pinktriangle.svg";
 import circle from "../assets/img/pinkcircle.svg";
 import blue from "../assets/img/bluecircle.svg";
 import yellow from "../assets/img/yellowcircle.svg";
-import { Close, Open } from './Mysvg';
+import { Arrowdown, Close, Open } from './Mysvg';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
@@ -33,9 +33,7 @@ const Myheader = () => {
                         <ul className={show ? "open": ""}>
                           <li><a href="#Home" onClick={Movement} className=' ff_hal_text txt_clr fs_16 fw_400 lnht_500 underlines position-relative'>Homepages</a></li>
                           <li><a href="#Products" onClick={Movement} className=' ff_hal_text txt_clr fs_16 fw_400 lnht_500 underlines position-relative'>Products</a></li>
-                          <li className=' d-flex gap-3 align-items-center'><a href="#Company" onClick={Movement} className=' ff_hal_text txt_clr fs_16 fw_400 lnht_500 underlines position-relative'>Company</a>
-                          <img className=' cursor_pointer' src={arrow} alt="" />
-                          </li>
+                          <li ><a href="#Company" onClick={Movement} className=' ff_hal_text txt_clr fs_16 fw_400 lnht_500 underlines position-relative'>Company  <Arrowdown/></a></li>
                           <li><a href="#Price" onClick={Movement} className=' ff_hal_text txt_clr fs_16 fw_400 lnht_500 underlines position-relative'>Pricing</a></li>
                           <li><a href="#Blog" onClick={Movement} className=' ff_hal_text txt_clr fs_16 fw_400 lnht_500 underlines position-relative'>Blog</a></li>
                           <div className=' d-flex flex-column align-items-center gap-5 d-lg-none'>
